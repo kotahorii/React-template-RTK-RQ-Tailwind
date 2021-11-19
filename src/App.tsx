@@ -4,11 +4,9 @@ import { Layout } from './components/templates/Layout'
 
 function App() {
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<Test />} />
-      </Routes>
-    </Layout>
+    <Routes>
+      <Route path="/" element={<Test />} />
+    </Routes>
   )
 }
 
